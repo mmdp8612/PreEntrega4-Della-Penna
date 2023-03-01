@@ -1,0 +1,40 @@
+/* Footer */
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $gris-oscuro;
+    padding:20px 20px;
+}
+
+.footer__logo {
+    img{
+        max-width:45px;
+    }
+}
+
+.footer__social {
+    li {
+        margin:0 5px;
+        display:inline-block;
+    } 
+}
+
+.footer__social {
+    li {
+        a{
+            color: $principal;
+        }
+    }
+}
+
+.footer__social {
+    li {
+        a{
+            &:hover {
+                color: $negro;
+            }
+        }
+    }
+}
